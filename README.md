@@ -1,16 +1,15 @@
-# shojikin_checker
+# 所持金チェッカー
 
-A new Flutter project.
+授業中に作ったやつ上げていくよ
 
-## Getting Started
+## なぜ作るのか
 
-This project is a starting point for a Flutter application.
+- いつ金を使ったかわかるようにするため
+- 最低限の機能の家計簿アプリが欲しかった
 
-A few resources to get you started if this is your first Flutter project:
+## 何ができるか
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 所持金表示
+- サブスクなどの固定費まとめ
+- いつお金が入ってくるかまとめ
+- 今後金が飛ぶ日まとめ
