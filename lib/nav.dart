@@ -23,11 +23,14 @@ class _NavPageState extends State<NavPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.orangeAccent,
+      ),
       body: pages[selectedIndex],
       bottomNavigationBar: CurvedNavigationBar(
         color: Colors.grey[50]!,
         buttonBackgroundColor: Colors.grey[50]!,
-        backgroundColor: Colors.orangeAccent,
+        backgroundColor: Colors.orangeAccent[100]!,
         animationDuration: const Duration(milliseconds: 200),
         height: 75,
         items: items,
